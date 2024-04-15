@@ -1,42 +1,41 @@
 /* Created by: hames.al-sharoa
-* Created on: Mar 2024 
+* Created on: Apr 2024
 * This file contains the CSS for index.html
 */
 
 .mdl-layout__header-row {
-  align-items: center;
   justify-content: center;
-}
-.container {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  text-align: center;
+  padding: 0;
 }
 
-input[type="number"] {
-  width: 100%;
-  padding: 8px;
-  margin: 5px 0;
-  box-sizing: border-box;
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
 }
 
-button {
-  padding: 10px 20px;
-  background-color: #4CAF50;
+.mdl-textfield__error {
+  color: lightgreen;
+}
+
+.page-content {
   color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
 }
 
-button:hover {
-  background-color: #45a049;
+.page-content-answer {
+  color: rgb(0 0 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
 }
 
-#result {
-  margin-top: 10px;
-  font-weight: bold;
+img {
+  height: auto;
+  width: 250px;
+  float: right;
+}
+
+body {
+  background-color: cornflowerblue;
 }
