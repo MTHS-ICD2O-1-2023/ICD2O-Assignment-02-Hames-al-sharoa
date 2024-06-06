@@ -2,10 +2,9 @@
 * Created on: Apr 2024
 * This file contains the CSS for index.html
 */
-
 .mdl-layout__header-row {
+  align-items: center;
   justify-content: center;
-  padding: 0;
 }
 
 .mdl-layout__content {
@@ -14,28 +13,29 @@
   padding-top: 15pt;
 }
 
-.mdl-textfield__error {
-  color: lightgreen;
-}
-
-.page-content {
-  color: white;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.25rem;
-}
-
-.page-content-answer {
-  color: rgb(0 0 0);
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.25rem;
-}
-
-img {
-  height: auto;
-  width: 250px;
-  float: right;
+/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
+*/
+.mdl-ripple {
+  background: #000;
+  opacity: 0.001;
 }
 
 body {
-  background-color: cornflowerblue;
+  background-color: #f5e5e7;
+}
+
+p {
+  color: #000;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  padding-top: 5pt;
+}
+
+#answer {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+#formula {
+  padding-left: 20px;
 }
